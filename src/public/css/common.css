@@ -1,0 +1,18 @@
+.header {
+    border : 1px;
+    color : #E0DFDE;
+}
+
+.header__inner {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 15px;
+    max-width: 1512px;
+}
+
+.header__logo {
+    color: #8b7969;
+    font-family: Inika;
+    text-decoration: none;
+    font-size: 24px;
+}

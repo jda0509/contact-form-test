@@ -1,0 +1,110 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1512px;
+}
+
+.contact-form__heading {
+    color: #8b7969;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--item {
+    color: #8b7969;
+    vertical-align: center;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    color: red;
+}
+
+.form__error {
+    height: 20px;
+    color: red;
+    text-align: left;
+}
+
+.form__input--text input {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #8b7969;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__input--text textarea {
+    padding: 10px;
+    width: 600px;
+    height: 70px;
+    border: 1px solid #8b7969;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__input--select  {
+    padding: 10px;
+    width: 610px;
+    color: #8b7969;
+
+    appearance: none;
+}
+
+.form__input--radio {
+    padding: 10px;
+    width: 600px;
+    color: #8b7969;
+
+    appearance: none;
+}
+
+.form__input--last_name,
+.form__input--first_name {
+    width: 45%;
+    border-radius: 3px;
+    color: #8b7969;
+    margin-right: 2%;
+}
+
+.form__input--first_phone,
+.form__input--second_phone,
+.form__input--third_phone {
+    padding: 10px;
+    width: 30%;
+    color: #8b7969;
+    appearance: none;
+    box-sizing: border-box;
+}
+
+.form__button {
+    margin: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding:10px 40px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color:#82756A;
+    color: #ffffff;
+}
+
